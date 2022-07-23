@@ -25,25 +25,25 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <a className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl" href='https://www.instagram.com/lifeskills.utd/'>
               <img src={InstagramSvg} className="w-16 h-16 p-1 -mt-1 mb-2" alt="Instagram" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Instagram</h4>
               <p className="text-gray-600 text-center">Event information is readily available here, and you can contact us as well.</p>
-            </div>
+            </a>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <a className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl" href='https://web.groupme.com/join_group/87517573/QIaCZ8hC'>
               <img src={GroupMeSvg} className="w-16 h-16 p-1 -mt-1 mb-2" alt="Instagram" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Member GroupMe</h4>
               <p className="text-gray-600 text-center">Converse with other members, vote on future workshops and find like-minded people.</p>
-            </div>
+            </a>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <a className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl" href='https://docs.google.com/forms/d/e/1FAIpQLSdcpru9l3QdrZkRApgqJbIzyWUUE2gVIfPm3dPvPyKHm8vVfQ/viewform'>
               <img src={SignUpSvg} className="w-16 h-16 p-1 -mt-1 mb-2" alt="Instagram" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Member sign-up form</h4>
               <p className="text-gray-600 text-center">Potentially a new member? Let us know by filling out our sign-up form.</p>
-            </div>
+            </a>
 
             {/* 4th item */}
             {/* <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
