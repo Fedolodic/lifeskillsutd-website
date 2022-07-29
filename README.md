@@ -4,7 +4,7 @@
 
 ## Live demo
 
-Check the live demo here 👉️ [https://simple.cruip.com/](https://simple.cruip.com/)
+Check the live demo here 👉️ [https://lifeskillsutd.vercel.app/](https://lifeskillsutd.vercel.app/)
 
 ## Simple Pro
 
