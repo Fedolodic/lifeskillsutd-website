@@ -1,6 +1,17 @@
-import React from 'react';
+import { React, useRef } from 'react';
+
+export let scrollTo;
 
 function Newsletter() {
+  
+  let someProperty = useRef(null);
+  
+  scrollTo = () => {
+    console.log(someProperty);
+
+    someProperty.current.scrollIntoView({behavior: "smooth"});
+  }
+  
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -38,7 +49,7 @@ function Newsletter() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
 
               {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
+              <div className="text-center lg:text-left lg:max-w-xl" id="elementToScroll" ref={someProperty}>
                 <h3 className="h3 text-white mb-2">Subscribe to our emailing list!</h3>
                 <p className="text-gray-300 text-lg mb-6">Make sure to never miss a workshop or event by subscribing! Always get the latest updates/flyers directly to your inbox.</p>
 

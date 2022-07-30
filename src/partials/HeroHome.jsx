@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import Newsletter, { scrollTo  } from './Newsletter';
+// import Features, { scrollToWorkshops } from './Features';
+// import Features, { scrollToWorkshops } from './Features';
 
 import HeroImage from '../images/hero-image.png';
 import LifeSkillsSvg from '../images/Life.svg';
@@ -7,6 +10,24 @@ import LifeSkillsSvg from '../images/Life.svg';
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
+
+  const scrollToSignUp = () => {
+    // e.preventDefault();
+    console.log("Newsletter got scrolled");
+
+    scrollTo();
+  }
+
+  // const scrollToWorkshop = () => {
+  //   // e.preventDefault();
+  //   console.log("Newsletter got scrolled");
+
+  //   scrollToWorkshops();
+  // }
+
+  let logIamClicked = () => {
+    console.log("I am clicked");
+  }
 
   return (
     <section className="relative">
@@ -40,10 +61,11 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">LifeSkillsUTD is proud to provide students with the opportunity to learn various forms of life skills in a fun & interactive way. Our goal is to help you develop the skills you need to succeed in all aspects of your life. Helping you navigate life's challenges and opportunities!</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
+                  {/* <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0" onClick={scrollToWorkshop}>Upcoming Events!</a> */}
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Upcoming Events!</a>
                 </div>
                 <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Sign up for our newsletter!</a>
+                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0" onClick={scrollToSignUp}>Sign up for our newsletter!</a>
                 </div>
               </div>
             </div>
