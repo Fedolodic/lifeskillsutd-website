@@ -10,7 +10,11 @@ import CookingImg from '../images/CookingImg.jpg';
 import FinanceImg from '../images/FinanceImg.jpg';
 import FitnessImg from '../images/FitnessImg.jpg';
 
+// export let scrollToWorkshops;
+
 function Features() {
+
+  // let someProperty= useRef(null);
 
   const [tab, setTab] = useState(1);
 
@@ -26,6 +30,12 @@ function Features() {
     heightFix()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab])
+
+  // scrollToWorkshops = () => {
+  //   console.log(someProperty);
+
+  //   someProperty.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  // }
 
   return (
     <section className="relative">
@@ -49,6 +59,7 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
+                {/* <h3 className="h3 mb-3" ref={someProperty}>Workshops</h3> */}
                 <h3 className="h3 mb-3">Workshops</h3>
                 <p className="text-xl text-gray-600">LifeSkillsUTD will host a variety of different workshops. From financial management, to public speaking control and stress relief exercises. Below, are our most popular workshops to look out for and what to expect!</p>
               </div>
