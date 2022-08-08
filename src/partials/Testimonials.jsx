@@ -185,7 +185,7 @@ function Testimonials() {
                   <img className="relative rounded-full" src={RakshakImg} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Hi! I'm Rakshak and I am a Sophomore Neuroscience major. I joined this organization because there are many things I should know but sadly don't, and this club is the perfect way for me to learn. I am really excited to see everyone come out to the events and have a great time. A fun fact about me is that I love anything basketball/NBA related, and my favorite team is our Dallas Mavericks! Don't be afraid to reach out to me on Instagram! “
+                  “ Hi! I'm Rakshak and I am a Sophomore Neuroscience major. I joined this organization because there are many things I should know but sadly don't, and this club is the perfect way for me to learn. I am really excited to see everyone come out to the events and have a great time. A fun fact about me is that I love anything basketball/NBA related, and my favorite team is our Dallas Mavericks! “
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Rakshak Ravichandran</cite>
                 <div className="text-gray-600">
