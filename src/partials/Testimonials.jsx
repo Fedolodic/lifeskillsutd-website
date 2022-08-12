@@ -92,7 +92,7 @@ function Testimonials() {
                   <img className="relative rounded-full" src={ZainabImg} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I’m a Junior majoring in Neuroscience and minoring in Public Health. I wanted to start this club so people like could be incentivized to learn new skills. I’m super excited for the workshops and socials we have planned this year, mainly the ones involving meal prep. Fun fact about me, I love trying new foods! “
+                  “ I’m a Junior majoring in Neuroscience and minoring in Public Health. I wanted to start this club so people like me could be incentivized to learn new skills. I’m super excited for the workshops and socials we have planned this year, mainly the ones involving meal prep. Fun fact about me, I love trying new foods! “
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Zainab Gangardiwala</cite>
                 <div className="text-gray-600">
