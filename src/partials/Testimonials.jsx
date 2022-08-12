@@ -81,10 +81,9 @@ function Testimonials() {
           </div> */}
 
           {/* Testimonials */}
+          {/* Co-President Testimonial */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Co-President Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +92,7 @@ function Testimonials() {
                   <img className="relative rounded-full" src={ZainabImg} width="96" height="96" alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ I’m a Junior majoring in Neuroscience and minoring in Public Health. I wanted to start this club so people like could be incentivized to learn new skills. I’m super excited for the workshops and socials we have planned this year, mainly the ones involving meal prep. Fun fact about me, I love trying new foods! “
+                  “ I’m a Junior majoring in Neuroscience and minoring in Public Health. I wanted to start this club so people like me could be incentivized to learn new skills. I’m super excited for the workshops and socials we have planned this year, mainly the ones involving meal prep. Fun fact about me, I love trying new foods! “
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Zainab Gangardiwala</cite>
                 <div className="text-gray-600">
@@ -104,10 +103,9 @@ function Testimonials() {
             </div>
           </div>
 
+          {/* Co-President Testimonial */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Co-President Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -123,14 +121,12 @@ function Testimonials() {
                   <span>Founder & Co-President</span> <a className="text-blue-600 hover:underline" href="https://www.instagram.com/lifeskills.utd/">@LifeSkillsUTD</a>
                 </div>
               </div>
-
             </div>
           </div>
 
+          {/* Vice President Testimonial */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Vice President Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -146,14 +142,12 @@ function Testimonials() {
                   <span>Vice President</span>
                 </div>
               </div>
-
             </div>
           </div>
 
+          {/* Social Media Manager Testimonial */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Social Media Manager Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -169,61 +163,12 @@ function Testimonials() {
                   <span>Social Media Manager</span>
                 </div>
               </div>
-
             </div>
           </div>
 
+          {/* Treasurer Testimonial */}
           <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
             <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Event Coordinator Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                  </svg>
-                  <img className="relative rounded-full" src={RakshakImg} width="96" height="96" alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “ Hi! I'm Rakshak and I am a Sophomore Neuroscience major. I joined this organization because there are many things I should know but sadly don't, and this club is the perfect way for me to learn. I am really excited to see everyone come out to the events and have a great time. A fun fact about me is that I love anything basketball/NBA related, and my favorite team is our Dallas Mavericks! “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Rakshak Ravichandran</cite>
-                <div className="text-gray-600">
-                  <span>Event Coordinator</span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Event Coordinator Testimonial */}
-              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                  <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                  </svg>
-                  <img className="relative rounded-full" src={ShrijaaImg} width="96" height="96" alt="Testimonial 01" />
-                </div>
-                <blockquote className="text-xl font-medium mb-4">
-                  “ Hey all, I'm a rising junior majoring in molecular biology! The concept of 'Life Skills' is a skillset I know I severely lacked coming into college, and I still have a long ways to go in figuring out how to best hone in on these skills. The past couple years however, living by myself , have taught me to survive on my own and by being a part of this club, I hope to gain and learn more skills alongside y'all that'll let me thrive. Super excited for all the things we have planned and the semester ahead! “
-                </blockquote>
-                <cite className="block font-bold text-lg not-italic mb-1">Shrijaa Mohan</cite>
-                <div className="text-gray-600">
-                  <span>Event Coordinator</span>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-              {/* Treasurer Testimonial */}
               <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
                 <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                   <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -239,7 +184,48 @@ function Testimonials() {
                   <span>Treasurer</span>
                 </div>
               </div>
+            </div>
+          </div>
 
+          {/* Event Coordinator Testimonial */}
+          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
+                  <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
+                  </svg>
+                  <img className="relative rounded-full" src={RakshakImg} width="96" height="96" alt="Testimonial 01" />
+                </div>
+                <blockquote className="text-xl font-medium mb-4">
+                  “ Hi! I'm Rakshak and I am a Sophomore Neuroscience major. I joined this organization because there are many things I should know but sadly don't, and this club is the perfect way for me to learn. I am really excited to see everyone come out to the events and have a great time. A fun fact about me is that I love anything basketball/NBA related, and my favorite team is our Dallas Mavericks! “
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Rakshak Ravichandran</cite>
+                <div className="text-gray-600">
+                  <span>Event Coordinator</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Event Coordinator Testimonial */}
+          <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+              <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
+                  <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
+                  </svg>
+                  <img className="relative rounded-full" src={ShrijaaImg} width="96" height="96" alt="Testimonial 01" />
+                </div>
+                <blockquote className="text-xl font-medium mb-4">
+                  “ Hey all, I'm a rising junior majoring in molecular biology! The concept of 'Life Skills' is a skillset I know I severely lacked coming into college, and I still have a long ways to go in figuring out how to best hone in on these skills. The past couple years however, living by myself , have taught me to survive on my own and by being a part of this club, I hope to gain and learn more skills alongside y'all that'll let me thrive. Super excited for all the things we have planned and the semester ahead! “
+                </blockquote>
+                <cite className="block font-bold text-lg not-italic mb-1">Shrijaa Mohan</cite>
+                <div className="text-gray-600">
+                  <span>Event Coordinator</span>
+                </div>
+              </div>
             </div>
           </div>
 
