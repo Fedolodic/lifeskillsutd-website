@@ -60,13 +60,13 @@ function HeroHome() {
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">LifeSkillsUTD is proud to provide students with the opportunity to learn various forms of life skills in a fun & interactive way. Our goal is to help you develop the skills you need to succeed in all aspects of your life. Helping you navigate life's challenges and opportunities!</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  {/* <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0" onClick={scrollToWorkshop}>Upcoming Events!</a> */}
+                {/* <div>
+                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0" onClick={scrollToWorkshop}>Upcoming Events!</a>
                   <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Upcoming Events!</a>
                 </div>
                 <div>
                   <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0" onClick={scrollToSignUp}>Sign up for our newsletter!</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
