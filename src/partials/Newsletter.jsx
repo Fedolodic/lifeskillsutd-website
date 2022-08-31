@@ -14,16 +14,17 @@ function Newsletter() {
     someProperty.current.scrollIntoView({behavior: "smooth"});
   }
 
-  const subscribeToNewsLetter = (e) => {
-    const formData = {
-      email: e.target.email.value
-    };
-    console.log('formData', formData);
-    jsonp(`https://gmail.us10.list-manage.com/subscribe/post/subscribe/post-json?u=a233a3863ffc520122705eefa&amp;id=cb0625de11&${queryString.stringify(formData)}`, { param: 'c' }, (err, data) => {
-      console.log('err:', err);
-      console.log('data:', data);
-    });
-  }
+  // const subscribeToNewsLetter = (e) => {
+  //   e.preventDefault();
+  //   const formData = {
+  //     email: e.target.email.value
+  //   };
+  //   console.log('formData', formData);
+  //   jsonp(`https://gmail.us10.list-manage.com/subscribe/post/subscribe/post-json?u=a233a3863ffc520122705eefa&amp;id=cb0625de11&${queryString.stringify(formData)}`, { param: 'c' }, (err, data) => {
+  //     console.log('err:', err);
+  //     console.log('data:', data);
+  //   });
+  // }
   
   return (  
     <section>
@@ -69,7 +70,7 @@ function Newsletter() {
                 <p className="text-gray-300 text-lg mb-6">Make sure to never miss a workshop or event by subscribing! Always get the latest updates/flyers directly to your inbox.</p>
 
                 {/* CTA form */}
-                <form className="w-full lg:w-auto" onSubmit={(e) => subscribeToNewsLetter(e)}>
+                <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
                     <input type="email" className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500" placeholder="Your email…" aria-label="Your email…" name='email'/>
                     <a className="btn text-white bg-blue-600 hover:bg-blue-700 shadow">Subscribe</a>
